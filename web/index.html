@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/wsockclient.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div style="width: 740px; margin: auto; align: center">
+            <div><b>Wsock Authentification</b></div>
+
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td style="padding: 15px; vertical-align: top">
+                            <div>
+                                <div style="width: 100%">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td><strong>E-mail:</strong></td>
+                                                <td><input type="text" id="authemail" size="20"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td><strong>Password:</strong></td>
+                                                <td><input type="text" id="authpassw" size="20"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <button type="button" onclick="startAuth();">Start session</button>
+                                                    <button type="button" onclick="userRegistration();">User Reg</button>
+                                                    <button type="button" onclick="closeSession();">Stop</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div style="margin-top: 40px">
+                                    <div>
+                                        <input type="text" id="msginput" size="30"/>
+                                    </div>
+                                    <div>
+                                        <button type="button" onclick="sendMsg();">Message</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </td>
+                        <td style="padding: 15px">
+                            <div id="messagewnd" style="width: 600px; height: 400px; overflow: auto;"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>
