@@ -5,10 +5,10 @@ JavaEE Winsock Authentification
 Проект собран в NetBeans, использованы GlassFish 4.1 и DerbyDB
 
 # Основные классы:
-WsockEndpoint - обслуживание HTTP-запросов
-MessageProcessor - обработка сообщений от пользователя
-Messaage - класс для объектов сообщений
-DbConnection - класс, обслуживающий работу с базой данный (схема WAUSERBOT, connectionURL = "jdbc:derby://localhost:1527/wsockauth")
+- WsockEndpoint - обслуживание HTTP-запросов
+- MessageProcessor - обработка сообщений от пользователя
+- Messaage - класс для объектов сообщений
+- DbConnection - класс, обслуживающий работу с базой данный (схема WAUSERBOT, connectionURL = "jdbc:derby://localhost:1527/wsockauth")
 
 # Порядок работы пользователя:
 - существуют два типа пользователей: ROLE_ADMIN и ROLE_USER
