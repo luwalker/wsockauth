@@ -19,9 +19,9 @@ import java.util.logging.Logger;
  */
 public class DbConnection {
     
-    private String connectionURL = "jdbc:derby://localhost:1527/wsockauth";
-    private String dbUserLogin = "wauserbot";
-    private String dbUserPassword = "us80Twa!";
+    private static final String connectionURL = "jdbc:derby://localhost:1527/wsockauth";
+    private static final String dbUserLogin = "wauserbot";
+    private static final String dbUserPassword = "us80Twa!";
 
     private Connection conn = null;
     private Statement statement = null;
