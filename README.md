@@ -2,7 +2,7 @@
 
 JavaEE Winsock Authentification
 
-Проект собран в NetBeans, использованы GlassFish 4.1 и DerbyDB
+Проект собран в NetBeans. Использованы GlassFish 4.1 и DerbyDB, которые входят в стандартную инсталляцию NetBeans для JavaEE.
 
 # Основные классы:
 - WsockEndpoint - обслуживание HTTP-запросов
