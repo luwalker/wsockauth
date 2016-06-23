@@ -28,8 +28,7 @@ public class MessageProcessor {
     private static final int ROLE_USER = 2;
     private static final String CUSTOMER_NOT_FOUND = "Customer not found";
     private static final String CODE_CUSTOMER_NOT_FOUND = "customer.notFound";
-    
-    
+        
     private DbConnection dbConnection = null;
 
     public MessageProcessor() {
