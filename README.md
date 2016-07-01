@@ -1,6 +1,6 @@
 # wsockauth
 
-JavaEE Winsock Authentification
+JavaEE Winsock Authorization & Authentification demo
 
 Проект собран в NetBeans. Использованы GlassFish 4.1 и DerbyDB, которые входят в стандартную инсталляцию NetBeans для JavaEE.
 
